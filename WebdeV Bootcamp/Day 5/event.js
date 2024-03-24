@@ -24,6 +24,7 @@ document.querySelector(".parent").addEventListener("click", function(){
 document.querySelector(".child").addEventListener("click", function(){
     console.log("child clicked");
 })
-document.getElementById("subchild").addEventListener("click", function(){
+document.getElementById("subchild").addEventListener("click", function(event){
     console.log("subchild clicked");
+    event.stopPropagation
 })
