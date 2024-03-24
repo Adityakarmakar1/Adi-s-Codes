@@ -1,0 +1,12 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: coral;
+}
+
+.child{
+    background-color: seagreen;
+    height: 50%;
+    width: 50%;
+    
+}
